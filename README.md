@@ -34,7 +34,7 @@ A combinational circuit is a circuit in which the output depends on the present 
 
 
 **Program:**
-
+~~~
 module combinationalcircuit(A,B,C,D,F1);
 input A,B,C,D;
 output F1;
@@ -46,7 +46,7 @@ assign x4=(~A)&(B)&(C)&(D);
 assign x5=(B)&(~C)&(D);
 assign F1=x1|x2|x3|x4|x5;
 endmodule
-
+~~~
 Developed by: PANDURU SOMU <br>
 RegisterNumber:212223240111
 
